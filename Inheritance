@@ -1,0 +1,25 @@
+class Base
+{
+int i=10;
+int j=20;
+void func()
+{
+system.out.println("fun of base");
+}
+void gun()
+{
+system.out.println("gun of base");
+}
+}
+class derived extends Base
+{
+int i=30;
+int k=40;
+void func()
+{
+system.out.println("fun of derived);
+}
+void sun()
+{
+system.out.println("sun of derived");
+}
